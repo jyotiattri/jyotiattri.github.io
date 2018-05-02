@@ -130,6 +130,26 @@
     .text{
 		padding: 0px !important;
     }
+	.section-4 .contact-me p span {
+    font-size: 25px;
+}
+.work_section .main {
+    width: auto;
+}
+.work_section .view {
+    width: 234px ;
+}
+}
+@media screen and (max-width: 600px) {
+	.work_section .main {
+    width: auto;
+}
+}
+@media screen and (max-width: 992px) {
+	.work_section .main {
+    width: auto ;
+    padding: 30px 133px;
+}
 }
 
 
