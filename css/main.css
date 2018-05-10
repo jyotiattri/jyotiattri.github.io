@@ -200,3 +200,28 @@
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
+.about_us h1{
+	font-size: 72px;
+	color: #1D4F44;
+	font-family: 'Raleway', sans-serif;
+	font-weight:100;
+	padding: 30px;
+	margin: 0;
+	position: relative;
+	text-align: center;
+}
+.about_us h1 span{
+	font-weight: 700;
+}
+.about_us {
+    background: #D5F3EC;
+    padding: 30px 0px;
+}
+.about_us h4 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+}
+.about_us ul li {
+    font-size: 16px;
+}
