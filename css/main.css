@@ -2,13 +2,13 @@
 /* CSS Document */
 
 .section-1{
-	background-color: #CDD4D3;
+	/* background-color: #CDD4D3; */
 	background-attachment: fixed !important;
 	padding-bottom: 10px;
 }
 .section-1 p{
 	float: right;
-	background-color: #749BAB;
+	background-color: #1c8784;
 	color: white;
 	padding: 1.05em;
 }
@@ -18,26 +18,26 @@
 }
 
 .section-1 h1{
-	font-size: 72px;
+	font-size: 54px;
 	color: #1D4F44;
 	font-family: 'Raleway', sans-serif;
-	font-weight:100;
-	padding: 30px;
+	font-weight:500;
+	padding: 8px;
 }
 
 .section-1 h2{
 	font-size: 48px;
 	color: #367A6B;
 	font-family: 'Raleway', sans-serif;
-	font-weight:100;
+	font-weight:500;
 }
 
 .section-1 h4{
 	font-size: 24px;
 	color: #367A6B;
 	font-family: 'Raleway', sans-serif;
-	font-weight:100;
-	margin-bottom: 4em;
+	font-weight:500;
+	margin-bottom: 2em;
 }
 .skill-sets {
     padding-bottom: 4em;
@@ -57,14 +57,13 @@
 	margin-top: 5px;
 }
 
-.section-4{
-	background-color:#83C9B9;
+.section-4 {
+    background-color: #434242;
+    color: #fff;
 }
 
 .section-4 p{
 	font-family: 'Raleway', sans-serif;
-	font-weight:100;
-	color: white;
 	font-size: 1.5em;
 	padding-left: 1em;
 }
@@ -166,7 +165,7 @@
 }
 
 .work_section{
-	padding: 20px 10px 0px 10px;
+	padding: 30px 0px 65px;
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -176,7 +175,7 @@
 	color: #333;
 }
 .work_section h1{
-	font-size: 72px;
+	font-size: 54px;
 	color: #1D4F44;
 	font-family: 'Raleway', sans-serif;
 	font-weight:100;
@@ -201,7 +200,7 @@
 	box-sizing: content-box;
 }
 .about_us h1{
-	font-size: 72px;
+	font-size: 54px;
 	color: #1D4F44;
 	font-family: 'Raleway', sans-serif;
 	font-weight:100;
@@ -214,8 +213,8 @@
 	font-weight: 700;
 }
 .about_us {
-    background: #D5F3EC;
-    padding: 30px 0px;
+    background: #F3EFE0;
+    padding: 30px 0px 55px;
 }
 .about_us h4 {
     text-align: left;
@@ -224,4 +223,77 @@
 }
 .about_us ul li {
     font-size: 16px;
+}
+.profeesional_section {
+    padding: 30px 0px 65px;
+}
+.profeesional_section h1 {
+    font-size: 54px;
+    color: #1D4F44;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding: 30px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+.profeesional_section h1 span {
+    font-weight: 700;
+}
+.profile-pic {
+    width: 35%;
+    margin: 0 auto;
+    border: 4px solid #367A6B;
+    padding: 5px;
+    border-radius: 50%;
+	margin-top: 10px;
+}
+.section-4 a {
+    color: #fff;
+}
+.section-4 a:hover {
+    color: #fff;
+}
+.experience-section h1 {
+    font-size: 54px;
+    color: #1D4F44;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding: 30px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+.experience-section h1 span {
+    font-weight: 700;
+}
+.experience-section .experience {
+    margin-bottom: 20px;
+}
+.experience-section .experience p > strong {
+    display: block;
+    padding-top: 8px;
+    margin-bottom: 10px;
+	font-size: 16px;
+}
+.experience-section .experience .experience-details {
+    display: block;
+    margin-top: 6px;
+}
+.experience-section .experience .experience-details * {
+    color: #22A39F;
+}
+.experience h4 {
+    font-size: 18px;
+    font-weight: 700;
+	text-align: left;
+}
+.experience-section {
+    padding: 30px 0px 65px;
+}
+.section-3{
+	background-color: #F3EFE0;
+}
+.profeesional_section .progress-bar {
+    background-color: #1c8784;
 }
